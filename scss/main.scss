@@ -42,7 +42,7 @@ a {
 header {
   position: fixed;
   z-index: 2;
-  width: 100;
+  width: 100%;
 }
 
 .text-secondary {
@@ -53,12 +53,18 @@ main {
   padding: 4rem;
   height: 100%;
 
-  a {
-    padding: 0.4rem;
+  .icons {
+    margin-top: 1rem;
+  
 
-    &:hover {
+   a {
+    padding: 0.4rem;
+  
+
+      &:hover {
       color: $secondary-color;
       @include easeOut();
+      }
     }
   }
 

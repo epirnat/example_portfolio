@@ -26,7 +26,7 @@ a {
 header {
   position: fixed;
   z-index: 2;
-  width: 100; }
+  width: 100%; }
 
 .text-secondary {
   color: #eece1a; }
@@ -34,11 +34,13 @@ header {
 main {
   padding: 4rem;
   height: 100%; }
-  main a {
-    padding: 0.4rem; }
-    main a:hover {
-      color: #eece1a;
-      transition: all 0.5s ease-out; }
+  main .icons {
+    margin-top: 1rem; }
+    main .icons a {
+      padding: 0.4rem; }
+      main .icons a:hover {
+        color: #eece1a;
+        transition: all 0.5s ease-out; }
   main#home {
     overflow: hidden; }
     main#home h1 {
